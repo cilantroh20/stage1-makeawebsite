@@ -1,4 +1,3 @@
-
 /* the asterisk symbol and the contents inside are for older browsers and to help you out with laying things out */
 /* the .name selector is for the html div class its just setting bg color  */
 /* . h1 selector */
@@ -9,7 +8,6 @@
 /* the rest of my css is structured in the same way, i give the parent element its position,
 and the child elements take the design  */ 
 
-
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: borer-box;
@@ -17,12 +15,12 @@ and the child elements take the design  */
 	box-sizing: border-box;
 }
 
-.name {
+#name {
 	background-color: #ffb6c1;
 	margin: 1%;
 }
 
-h1  {
+h1 {
 	font-family: cursive;
 	color: #ffffff;
 	text-align: right;
@@ -33,7 +31,7 @@ h1  {
 
 /* .bio main div, .image, img, .me , p nested inside, four boxes*/
 
-.bio { 
+#bio { 
 	display: flex;
 }
 
@@ -59,11 +57,11 @@ p {
 	font-weight: lighter;
 }
 
-.interests {
+#interests {
 	display: flex;
 }
 
-.mus {
+.bar {
 	background-color: #ffb6c1;
 	margin: 1%;
 	max-width: 50%;
@@ -78,13 +76,6 @@ h2 {
 	font-weight: lighter;
 }
 
-.show {
-	background-color: #ffb6c1;
-	margin: 1%;
-	width: 200%;
-	max-width: 50%;	
-}
-
 h3 {
 	font-family: cursive;
 	color: #ffffff;
@@ -95,12 +86,12 @@ h3 {
 	padding-left:5%;
 }
 
-.info{
+#info{
 	display: flex;
 }
 
-.link {
-	margin-left: 8%;
+.content {
+	margin-left: 20%;
 	padding-bottom: 8%;
 	max-width: 50%;
 }
@@ -112,21 +103,3 @@ a {
 	font-size: 15px;
 	text-align: center;
 }
-
-.list {
-	margin-left: 8%;
-	padding-bottom: 8%;
-	max-width: 50%;
-	color: black;
-	font-family: sans-serif;
-	font-weight: lighter;
-	font-size: 15px;
-	padding-left: 25%;
-}
-
-
-
-
-
-
-
