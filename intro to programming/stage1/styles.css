@@ -1,3 +1,4 @@
+
 /* the asterisk symbol and the contents inside are for older browsers and to help you out with laying things out */
 /* the .name selector is for the html div class its just setting bg color  */
 /* . h1 selector */
@@ -8,7 +9,7 @@
 /* the rest of my css is structured in the same way, i give the parent element its position,
 and the child elements take the design  */ 
 
-* {
+body {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: borer-box;
 	-ms-box-sizing: border-box;
@@ -22,7 +23,7 @@ and the child elements take the design  */
 
 h1 {
 	font-family: cursive;
-	color: #ffffff;
+	color: #fff;
 	text-align: right;
 	font-size: 300%;
 	padding-right: 5%;
