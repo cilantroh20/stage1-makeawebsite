@@ -1,0 +1,132 @@
+
+/* the asterisk symbol and the contents inside are for older browsers and to help you out with laying things out */
+/* the .name selector is for the html div class its just setting bg color  */
+/* . h1 selector */
+/* i have the selectors written in a certain way, since the container element div is a block element,
+ i imagine it as a box, so first i set the parent box position and whatever else i want it to do
+ and then i set the contents of whats inside the box. */
+/* EX: .name is a box so i set its position and color, and h1 is the contents within that box*/
+/* the rest of my css is structured in the same way, i give the parent element its position,
+and the child elements take the design  */ 
+
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: borer-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.name {
+	background-color: #ffb6c1;
+	margin: 1%;
+}
+
+h1  {
+	font-family: cursive;
+	color: #ffffff;
+	text-align: right;
+	font-size: 300%;
+	padding-right: 5%;
+	font-weight: lighter;
+}
+
+/* .bio main div, .image, img, .me , p nested inside, four boxes*/
+
+.bio { 
+	display: flex;
+}
+
+.image {
+	max-width: 50%;
+}
+
+img {
+	width: 60% ;
+	height: 50% ;
+	margin-left: 9%;
+}
+
+.me {
+	max-width: 50%;
+	margin-right: 5% ;
+	margin-left: 2%;
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+.interests {
+	display: flex;
+}
+
+.mus {
+	background-color: #ffb6c1;
+	margin: 1%;
+	max-width: 50%;
+	width: 200%;
+}
+
+h2 {
+	font-family: cursive;
+	color: #ffffff;
+	text-align: center;
+	font-size: 300%;
+	font-weight: lighter;
+}
+
+.show {
+	background-color: #ffb6c1;
+	margin: 1%;
+	width: 200%;
+	max-width: 50%;	
+}
+
+h3 {
+	font-family: cursive;
+	color: #ffffff;
+	font-size: 300%;
+	font-weight: lighter;	
+	text-align: center;
+	max-width: 50%;
+	padding-left:5%;
+}
+
+.info{
+	display: flex;
+}
+
+.link {
+	margin-left: 8%;
+	padding-bottom: 8%;
+	max-width: 50%;
+}
+
+a {
+	color: black;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 15px;
+	text-align: center;
+}
+
+.list {
+	margin-left: 8%;
+	padding-bottom: 8%;
+	max-width: 50%;
+	color: black;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 15px;
+	padding-left: 25%;
+}
+
+
+
+
+
+
+
